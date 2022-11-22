@@ -8,6 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class GreetProducerDemo {
 
@@ -18,7 +19,7 @@ public class GreetProducerDemo {
         log.info("I am a Kafka Producer");
 
         Properties properties = new Properties();
-        properties.put(ProducerConfig.CLIENT_ID_CONFIG, "hello-greet-producer");
+        properties.put(ProducerConfig.CLIENT_ID_CONFIG, "greet-producer");
         properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
         properties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         properties.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
@@ -35,21 +36,23 @@ public class GreetProducerDemo {
         properties.put(ProducerConfig.LINGER_MS_CONFIG, 0);
         properties.put(ProducerConfig.BATCH_SIZE_CONFIG, 16384);
 
-        properties.put(ProducerConfig.PARTITIONER_CLASS_CONFIG, GreetTopicPartitioner.class.getName());
-        properties.put(ProducerConfig.INTERCEPTOR_CLASSES_CONFIG, GreetProducerInterceptor.class.getName());
 
         properties.put(ProducerConfig.BUFFER_MEMORY_CONFIG, 33554432);
         properties.put(ProducerConfig.MAX_BLOCK_MS_CONFIG, 60000);
 
 
+        //properties.put(ProducerConfig.PARTITIONER_CLASS_CONFIG, GreetTopicPartitioner.class.getName());
+        //properties.put(ProducerConfig.INTERCEPTOR_CLASSES_CONFIG, GreetProducerInterceptor.class.getName());
+
+
         KafkaProducer<String, String> producer = new KafkaProducer<>(properties);
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < Integer.MAX_VALUE; i++) {
             ProducerRecord<String, String> producerRecord =
                     new ProducerRecord<String, String>(
                             "greet-topic",
                             null,
-                            "key",
+                            "key-" + i,
                             "Hello World!"
                     );
             producer.send(producerRecord, (metadata, err) -> {
@@ -65,11 +68,11 @@ public class GreetProducerDemo {
                 }
             });
 
-//            try {
-//                TimeUnit.SECONDS.sleep(2);
-//            } catch (InterruptedException e) {
-//                throw new RuntimeException(e);
-//            }
+            try {
+                TimeUnit.MILLISECONDS.sleep(1);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
 
         }
         producer.flush();

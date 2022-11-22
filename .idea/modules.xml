@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/kafka-programming/kafka-streams/kafka-streams.iml" filepath="$PROJECT_DIR$/kafka-programming/kafka-streams/kafka-streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-programming/producer-consumer-api/producer-consumer-api.iml" filepath="$PROJECT_DIR$/kafka-programming/producer-consumer-api/producer-consumer-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tw-kafka.iml" filepath="$PROJECT_DIR$/.idea/tw-kafka.iml" />
     </modules>
   </component>
