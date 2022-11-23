@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93841314-2924-4b37-891d-bb67221115dd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../kafka-invoice-validator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-invoice-validator/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-invoice-validator/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-invoice-validator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-invoice-validator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-invoice-validator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-invoice-validator/src/main/java/com/example/AppConfigs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-invoice-validator/src/main/java/com/example/ConsumerProducerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-invoice-validator/src/main/java/com/example/serde/JsonDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-invoice-validator/src/main/java/com/example/serde/JsonSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-invoice-validator/src/main/java/com/example/types/DeliveryAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-invoice-validator/src/main/java/com/example/types/LineItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-invoice-validator/src/main/java/com/example/types/PosInvoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/src/main/java/com/example/AppConfigs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/src/main/java/com/example/InvoiceProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/src/main/java/com/example/RunnableProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/src/main/java/com/example/datagenerator/AddressGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/src/main/java/com/example/datagenerator/InvoiceGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/src/main/java/com/example/datagenerator/ProductGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/src/main/java/com/example/serde/JsonSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/src/main/java/com/example/types/DeliveryAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/src/main/java/com/example/types/LineItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/src/main/java/com/example/types/PosInvoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/src/main/resources/data/Invoice.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/src/main/resources/data/address.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/src/main/resources/data/products.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/src/main/resources/schema/Invoice.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/target/classes/data/Invoice.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/target/classes/data/address.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/target/classes/data/products.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-invoice/target/classes/schema/Invoice.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/admin/AdminClient_Advanced.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/admin/AdminClient_ClusterMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/admin/AdminClient_ConfigurationManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/admin/AdminClient_ConsumerGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/admin/AdminClient_Intro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/admin/AdminClient_TopicManagement_Delete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/admin/AdminClient_TopicManagement_Describe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/admin/AdminClient_TopicManagement_List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/consumer/MessageConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/consumer/MessageConsumerAssignAndSeek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/consumer/MessageConsumerRebalanceListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/consumer/MessageDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/consumer/MessageStandaloneConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/producer/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/producer/MessageInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/producer/MessagePartitioner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/producer/MessageProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-programing/src/main/java/com/example/producer/MessageSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/avro/appliance_order.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/avro/combined_order.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/avro/electronic_order.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/avro/processed_order.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/avro/product_order.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/avro/user.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/StreamsUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/aggregate/StreamsAggregate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/aggregate/TopicLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/aggregate/solution/StreamsAggregate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/avro/ApplianceOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/avro/CombinedOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/avro/ElectronicOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/avro/ProcessedOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/avro/ProductOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/avro/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/basic/BasicStreams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/basic/TopicLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/basic/solution/BasicStreams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/errors/StreamsErrorHandling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/errors/TopicLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/errors/solution/StreamsErrorHandling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/joins/StreamsJoin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/joins/TopicLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/joins/solution/StreamsJoin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/ktable/KTableExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/ktable/TopicLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/ktable/solution/KTableExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/processor/ProcessorApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/processor/TopicLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/processor/solution/ProcessorApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/serdes/StreamsSerdes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/serdes/StreamsSerdesSchemaRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/serdes/solution/StreamsSerdes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/serdes/solution/StreamsSerdesSchemaRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/time/StreamsTimestampExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/time/TopicLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/time/solution/StreamsTimestampExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/windows/StreamsWindows.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/windows/TopicLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/java/com/example/windows/solution/StreamsWindows.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/src/main/resources/streams.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-streams/target/classes/streams.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CEqSfW7p7x3TgvM2EfXjwnjzpj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93841314-2924-4b37-891d-bb67221115dd" name="Changes" comment="" />
+      <created>1658378094961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658378094961</updated>
+      <workItem from="1658378098845" duration="351000" />
+      <workItem from="1659944641043" duration="192000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>
