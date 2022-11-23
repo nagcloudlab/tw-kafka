@@ -15,7 +15,7 @@ public class SpecificRecordExamples {
 
     public static void main(String[] args) {
 
-//        // we can now build a customer in a "safe" way
+        // we can now build a customer in a "safe" way
 //        Customer.Builder customerBuilder = Customer.newBuilder();
 //        customerBuilder.setAge(30);
 //        customerBuilder.setFirstName("Mark");
@@ -23,11 +23,11 @@ public class SpecificRecordExamples {
 //        customerBuilder.setAutomatedEmail(true);
 //        customerBuilder.setHeight(180f);
 //        customerBuilder.setWeight(90f);
-//
+////
 //        Customer customer = customerBuilder.build();
 //        System.out.println(customer.toString());
-//
-//
+////
+////
 //        // write it out to a file
 //        final DatumWriter<Customer> datumWriter = new SpecificDatumWriter<>(Customer.class);
 //
@@ -40,7 +40,7 @@ public class SpecificRecordExamples {
 //        }
 
 //
-//        // read it from a file
+        // read it from a file
 //        final File file = new File("customer-specific.avro");
 //        final DatumReader<Customer> datumReader = new SpecificDatumReader<>(Customer.class);
 //        final DataFileReader<Customer> dataFileReader;

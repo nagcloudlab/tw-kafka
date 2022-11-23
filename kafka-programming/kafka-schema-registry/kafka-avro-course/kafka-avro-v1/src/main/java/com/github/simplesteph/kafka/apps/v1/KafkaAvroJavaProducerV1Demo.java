@@ -23,14 +23,14 @@ public class KafkaAvroJavaProducerV1Demo {
 
         Producer<String, Customer> producer = new KafkaProducer<String, Customer>(properties);
 
-        String topic = "customer-avro";
+        String topic = "customer-topic";
 
         // copied from avro examples
         Customer customer = Customer.newBuilder()
                 .setAge(34)
                 .setAutomatedEmail(false)
                 .setFirstName("Nag")
-//                .setLastName("Doe")
+                .setLastName("Doe")
                 .setHeight(178f)
                 .setWeight(75f)
                 .build();

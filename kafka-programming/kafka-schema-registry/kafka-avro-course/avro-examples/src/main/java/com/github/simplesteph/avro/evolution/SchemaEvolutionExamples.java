@@ -17,8 +17,8 @@ public class SchemaEvolutionExamples {
     public static void main(String[] args) throws IOException {
 //
         // let's test a backward compatible read
-//
-//         we deal with the V1 of our customer
+
+////         we deal with the V1 of our customer
 //        CustomerV1 customerV1 = CustomerV1.newBuilder()
 //                .setAge(34)
 //                .setAutomatedEmail(false)
@@ -28,8 +28,8 @@ public class SchemaEvolutionExamples {
 //                .setWeight(75f)
 //                .build();
 //        System.out.println("Customer V1 = " + customerV1.toString());
-////
-        // write it out to a file
+//
+//         write it out to a file
 //        final DatumWriter<CustomerV1> datumWriter = new SpecificDatumWriter<>(CustomerV1.class);
 //        final DataFileWriter<CustomerV1> dataFileWriter = new DataFileWriter<>(datumWriter);
 //        dataFileWriter.create(customerV1.getSchema(), new File("customerV1.avro"));
@@ -37,7 +37,7 @@ public class SchemaEvolutionExamples {
 //        dataFileWriter.close();
 //        System.out.println("successfully wrote customerV1.avro");
 ////
-//        // we read it using the v2 schema
+        // we read it using the v2 schema
 //        System.out.println("Reading our customerV1.avro with v2 schema");
 //        final File file = new File("customerV1.avro");
 //        final DatumReader<CustomerV2> datumReaderV2 = new SpecificDatumReader<>(CustomerV2.class);
@@ -73,16 +73,16 @@ public class SchemaEvolutionExamples {
 //        System.out.println("successfully wrote customerV2.avro");
 ////
         // we read it using the v2 schema
-//        System.out.println("Reading our customerV2.avro with v1 schema");
-//        final File file2 = new File("customerV2.avro");
-//        final DatumReader<CustomerV1> datumReader = new SpecificDatumReader<>(CustomerV1.class);
-//        final DataFileReader<CustomerV1> dataFileReader = new DataFileReader<>(file2, datumReader);
-//        while (dataFileReader.hasNext()) {
-//            CustomerV1 customerV1Read = dataFileReader.next();
-//            System.out.println("Customer V1 = " + customerV1Read.toString());
-//        }
-//
-//        System.out.println("Forward schema evolution successful");
+        System.out.println("Reading our customerV2.avro with v1 schema");
+        final File file2 = new File("customerV2.avro");
+        final DatumReader<CustomerV1> datumReader = new SpecificDatumReader<>(CustomerV1.class);
+        final DataFileReader<CustomerV1> dataFileReader = new DataFileReader<>(file2, datumReader);
+        while (dataFileReader.hasNext()) {
+            CustomerV1 customerV1Read = dataFileReader.next();
+            System.out.println("Customer V1 = " + customerV1Read.toString());
+        }
+
+        System.out.println("Forward schema evolution successful");
 
     }
 }

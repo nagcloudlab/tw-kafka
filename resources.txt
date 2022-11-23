@@ -1,0 +1,23 @@
+
+
+Notion Pages
+
+https://developing-furniture-976.notion.site/Kafka-a2e902c1649d46f9807498e4b9cfd34a
+https://developing-furniture-976.notion.site/Kafka-55ff61de09c143c3ad23dcb84de44345
+https://developing-furniture-976.notion.site/Kafka-f7643702d128437486036f6fc377677d
+https://developing-furniture-976.notion.site/Apache-Kafka-8a442324170c447c9b5b822b87f5e380
+
+Slides
+https://docs.google.com/presentation/d/1jCKBneCyi08Qh2PIrwLMldxUCX7PEqA5KMi-PaJFU_o/edit?usp=sharing
+https://docs.google.com/presentation/d/1AF7LFu0oNTvTPJ_RghdDTKjxA9HeSgisJFKLXcE2tRU/edit?usp=sharing
+
+
+Kafka Connect
+https://github.com/confluentinc/demo-scene/blob/master/kafka-connect-zero-to-hero/demo_zero-to-hero-with-kafka-connect.adoc
+
+
+Event Driven Microservices with Quarkus
+https://github.com/nagcloudlab/quarkus-batch7/tree/main/5-quarkus-workshop-superheroes/super-heroes
+https://quarkus.io/guides/kafka-reactive-getting-started
+
+

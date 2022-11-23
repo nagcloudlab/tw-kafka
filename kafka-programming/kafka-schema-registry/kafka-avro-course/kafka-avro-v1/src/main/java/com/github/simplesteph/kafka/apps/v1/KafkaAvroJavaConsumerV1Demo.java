@@ -27,7 +27,7 @@ public class KafkaAvroJavaConsumerV1Demo {
         properties.setProperty("specific.avro.reader", "true");
 
         KafkaConsumer<String, Customer> kafkaConsumer = new KafkaConsumer<>(properties);
-        String topic = "customer-avro";
+        String topic = "customer-topic";
         kafkaConsumer.subscribe(Collections.singleton(topic));
 
         System.out.println("Waiting for data...");
